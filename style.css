@@ -90,18 +90,23 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   font-weight: 600;
 }
 
+.card{
+  background-image: url(./Shared/images/bg-demo1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .title-collection {
   font-size: 30px;
   text-align: center;
   padding: 10px 0;
-  background-color: pink;
 }
 
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: pink;
   flex-wrap: wrap;
 }
 
@@ -156,7 +161,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   font-size: 25px;
   text-align: center;
   padding: 5px 30px;
-  background-color: pink;
 }
 
 .wrapper-related {
