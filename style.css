@@ -23,7 +23,6 @@
   src: url(./Shared/fonts/Gallient.ttf) format("truetype");
 }
 
-
 * {
   padding: 0;
   margin: 0;
@@ -232,7 +231,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   padding: 20px 0;
   position: relative;
   height: 200px;
+  width: 100%;
+  overflow: hidden;
 }
+
 .mySwiper2 {
   margin-top: 36px;
 }
@@ -369,7 +371,7 @@ footer {
 
 .copyright {
   text-align: center;
-  margin: 5px 0;
+  padding: 5px 0;
   width: 100%;
 }
 
