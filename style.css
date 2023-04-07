@@ -50,6 +50,12 @@ body {
   color: #fff;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -58,6 +64,7 @@ body {
   position: relative;
   height: 50px;
   border-bottom: 1px solid #876445;
+  background: #fff;
 }
 
 .logo {
@@ -128,14 +135,26 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .thumbnail__text {
   text-align: justify;
-  padding: 10px 20px;
+  padding: 5px 10px;
   background-color: #f3deba;
   border-bottom: 1px solid #876445;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
 }
 
-.thumbnail__text span {
+.thumbnail__text::after {
+  content: "...Read more";
+  position: absolute;
+  bottom: 5px;
+  right: 12px;
+  background-color: #f3deba;
   color: #837b7b;
 }
+
 
 .card {
   background-image: url(./Shared/images/bg-2.png);
