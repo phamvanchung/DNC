@@ -149,10 +149,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .thumbnail__text::after {
   content: "...Read more";
   position: absolute;
-  bottom: 5px;
-  right: 12px;
+  bottom: 4px;
+  right: 2px;
   background-color: #f3deba;
   color: #837b7b;
+  width: 92px;
 }
 
 
